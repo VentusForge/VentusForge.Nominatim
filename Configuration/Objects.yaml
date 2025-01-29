@@ -1,0 +1,9 @@
+VentusForge\Nominatim\Service\GeoLocalizationService:
+  properties:
+    geoLocalizationCache:
+      object:
+        factoryObjectName: Neos\Flow\Cache\CacheManager
+        factoryMethodName: getCache
+        arguments:
+          1:
+            value: VentusForge_Nominatim_GeoLocalization

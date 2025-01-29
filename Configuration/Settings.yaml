@@ -1,0 +1,8 @@
+VentusForge:
+  Nominatim:
+    url: 'https://nominatim.openstreetmap.org/search.php'
+    defaultQueryParams:
+      format: 'jsonv2'
+      accept-language: 'de-DE'
+      countrycodes: 'de'
+      addressdetails: 1

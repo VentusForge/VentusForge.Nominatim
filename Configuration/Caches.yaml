@@ -1,0 +1,5 @@
+VentusForge_Nominatim_GeoLocalization:
+  frontend: Neos\Cache\Frontend\VariableFrontend
+  backend: Neos\Cache\Backend\FileBackend
+  backendOptions:
+    defaultLifetime: 0
