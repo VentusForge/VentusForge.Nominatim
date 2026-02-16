@@ -8,6 +8,11 @@
         "php": ">=8.3",
         "neos/flow": ">=8.0"
     },
+    "keywords": [
+        "neos",
+        "neoscms",
+        "nominatim"
+    ],
     "autoload": {
         "psr-4": {
             "VentusForge\\Nominatim\\": "Classes"
